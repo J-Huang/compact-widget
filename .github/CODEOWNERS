@@ -1,0 +1,59 @@
+# Global Ownership
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence.
+* @walmart-web/webarchitectureteam
+
+# Account
+/libs/account @walmart-web/post-tx-team
+
+# Cart
+/libs/cart @walmart-web/checkout-team
+
+# Home
+/libs/cart @walmart-web/home
+
+# Checkout
+/libs/checkout @walmart-web/checkout-team
+
+# Transaction
+/libs/transaction @walmart-web/checkout-team
+
+# Home
+/libs/home @walmart-web/home-team
+
+# Item
+/libs/item @walmart-web/item-page-team
+
+# Orders
+/libs/orders @walmart-web/post-tx-team
+
+# Repurchase
+/libs/repurchase @walmart-web/repurchase-team
+
+# Search
+/libs/search @walmart-web/search-team
+
+# Things that generally shouldn't be committed and will need review by platform team
+*.jpg @walmart-web/webarchitectureteam
+*.jpeg @walmart-web/webarchitectureteam
+*.png @walmart-web/webarchitectureteam
+*.svg @walmart-web/webarchitectureteam
+*.gif @walmart-web/webarchitectureteam
+*.css @walmart-web/webarchitectureteam
+*.scss @walmart-web/webarchitectureteam
+
+# Living Design
+# NOTE: intentionally below the catch all block above as LD has need to
+#       commit images / styles
+/libs/livingdesign @walmart-web/livingdesign-team
+
+
+#Search mocks
+/libs/search/results-page/src/__tests__/integration/search-results-page.spec.tsx @b0m01v7
+/libs/mocks/ecommmock/src/lib/search/results.json @b0m01v7
+
+#mocks
+/libs/mocks @b0m01v7
+
+# Identity
+/libs/identity @walmart-web/identity-team
