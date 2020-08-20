@@ -1,0 +1,25 @@
+# https://gecgithub01.walmart.com/mobile-platform/github-app-monolith
+# https://github.com/zeke/semantic-pull-requests#configuration
+titleOnly: true
+# @info
+# Adding a scope?
+# Please also add to libs/platform/meta/src/lib/platform-meta.ts
+scopes:
+  - account
+  - cart
+  - checkout
+  - home
+  - item
+  - identity
+  - livingdesign
+  - mocks
+  - orders
+  - platform
+  - repurchase
+  - search
+  - silica
+  - spa
+  - transaction
+  - ui
+allowEmptyScope: false
+targetUrl: https://gecgithub01.walmart.com/walmart-web/walmart/blob/main/docs/scopes-and-structure.md

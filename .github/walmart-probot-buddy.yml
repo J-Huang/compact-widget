@@ -1,0 +1,6 @@
+# https://gecgithub01.walmart.com/mobile-platform/github-app-monolith
+enabled_features:
+  - autolabeler
+  - bot-pr-merge
+  - semantic-pull-requests
+  - stalebot
